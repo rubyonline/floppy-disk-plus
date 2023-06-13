@@ -3,18 +3,23 @@
     <h2>Welcome, {{name}}!</h2>
   </div>
 </div>
-
+<style>
+  .background-image {
+    background-image: url({{imagePath}});
+    /* Additional CSS properties for positioning, size, etc. */
+  }
+</style>
 <div class="row mt-4">
   <div class="col-md-6">
-    <h3>Create a New Project:</h3>
+    <h3>Poke Fusionator:</h3>
 
     <form class="form new-project-form">
       <div class="form-group">
-        <label for="project-name">project name:</label>
+        <label for="project-name!">Choose Your Pokemon!</label>
         <input class="form-input" type="text" id="project-name" name="project-name" />
       </div>
       <div class="form-group">
-        <label for="project-funding">needed funding ($):</label>
+        <label for="project-funding">Choose Your Pokemon!</label>
         <input class="form-input" type="number" id="project-funding" name="project-funding" />
       </div>
       <div class="form-group">
